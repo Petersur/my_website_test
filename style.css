@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    background: #dcc8ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background: #7434db;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.container:hover .box:not(:hover){
+    filter: grayscale(80);
+    opacity: 0.6;
+    -webkit_filter: grayscale(80%);
+}
+
+.box:hover{
+    scale: 1.1;
+    opacity: 1;
+    filter: grayscale(0);
+    -webkit_filter: grayscale(0);
+}
