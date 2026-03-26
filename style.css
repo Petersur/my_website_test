@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #dcc8ff;
     height: 100vh;
     display: flex;
@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 60px;
     font-weight: bold;
     transition: all 0.3s ease;
 }
